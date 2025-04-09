@@ -3,10 +3,10 @@
 #include<stdio.h>
 int main(void)
 {
-  printf(Welcome to You!\n")
+  printf(Welcome to You！\n")
   return 0;
 }
-答：两处错误，修改后printf("Welcome to You!\n");
+答：三处错误，修改后printf("Welcome to You!\n");
 
 2、C语言中表达式（D）的值不等于1.
 A.123/100 B.901%10 C.76%3 D.625%5
@@ -38,3 +38,28 @@ a=a+b;
 b=a-b;
 a=a-b;
 printf("a=%d#b=%d\n",a,b);
+3、完善代码实现使用temp交换a和b的值
+int a,b,temp;
+printf("Enter a,b:");
+scanf("%d%d",&a,&b);
+temp = a;
+a = b;
+b = temp;
+printf("a=%d#b=%d\n",a,b);
+
+4、假设n是整型变量，判断n是偶数的表达式是（n%2==0）
+5、与数学表达式根号下s(s-a)(s-b)(s-c)对应的C语言表达式为（sqrt(s*(s-a)*(s-b)*(s-c))）
+6、调用数学库函数时，编译预处理命名为（#include<math.h>），调用输入输出函数库时，编译预处理命令为（#include<stdio.h>）
+7、算术、赋值、关系运算符的优先级为（关系＞算数＞赋值）
+8、下列程序段输出的结果为（k=0#flag=0）
+int k,flag;
+if(k=0)
+{
+  flag=0;
+}else{
+  flag=1;
+}
+printf("k=%d#flag=%d\n",k,falg);
+
+9、C语言三大基本的控制结构为（顺序结构，选择结构，循环结构）
+10、下列程序段输出的结果是（）
