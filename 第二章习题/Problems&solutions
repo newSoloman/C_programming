@@ -1,1 +1,28 @@
+一、选择题
+1、下列程序中有几处错误？
+#include<stdio.h>
+int main(void)
+{
+  printf(Welcome to You!\n")
+  return 0;
+}
+答：两处错误，修改后printf("Welcome to You!\n");
 
+2、C语言中表达式（D）的值不等于1.
+A.123/100 B.901%10 C.76%3 D.625%5
+
+3、当i=2,j=3时，显示2*3=6
+答：printf("%d * %d =%d\n",i,j,i*j);
+
+4、x是double型变量，n是int型变量，若输入3 1.25后x=1.25，n=3怎样用scanf获取？
+答：scanf("%d%lf",&n,&x);
+
+5、下列运算符中，优先级最低的是谁？（B）
+A.* B.= C.== D.%
+
+6、观察代码并且补全。
+if(x>=y){
+  printf("max=%d\n",x);
+}else{
+  printf("max=%d\n",y);
+}
